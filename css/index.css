@@ -71,3 +71,11 @@
     z-index: 50;
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
+
+/* 导航栏透明磨砂玻璃效果 */
+.navbar-fixed {
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+

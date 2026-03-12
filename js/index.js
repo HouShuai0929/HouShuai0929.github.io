@@ -34,11 +34,9 @@ document.addEventListener('DOMContentLoaded', function() {
     const navbar = document.getElementById('navbar');
     window.addEventListener('scroll', function() {
         if (window.scrollY > 50) {
-            navbar.classList.add('bg-white', 'shadow-md');
-            navbar.classList.remove('bg-opacity-95');
+            navbar.classList.add('shadow-md');
         } else {
             navbar.classList.remove('shadow-md');
-            navbar.classList.add('bg-opacity-95');
         }
     });
     
